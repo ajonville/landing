@@ -10,38 +10,58 @@ h1{
   font-family: Helvetica;
   color: rgb(79, 56, 36);
   font-weight: lighter;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 h2 {
   font-family: Helvetica;
   color: rgba(10,10,10);
   font-weight: lighter;
-  font-size: 10px;
+  font-size: 12px;
 }
+
 
 a {
   color: white;
-
+	
 }
 a:hover {
   text-decoration: none;
-  color: purple;
-  
+  color: grey;
+  font-size: 20px;
+}
+
+/* it would be good to make this element best priority */
+
+.row a:hover {
+  text-decoration: none;
+  color: rgb(255, 79, 33);
+  font-size: 14px;
+}
+
+.row a {
+  text-decoration: none;
+  color: rgb(255, 74, 28);
+  font-size: 13px;
 }
 
 /* Custom design */
 
 
 img {
-   text-align: center;
+   text-align: right;
    width: 20px;
-	font-size: 70px;
+	font-size: 20px;
 }
 
 .img-big {
-   text-align: center;
-   width: 50px;
+   text-align: right;
+   width: 30px;
+}
+
+#identite {
+	text-align: right;
+   width: 100px;
 }
 
 #logo {
@@ -50,21 +70,21 @@ img {
 
 #banner{
   text-align: center;
-  background-image: url("https://unsplash.it/1300/400?random");
+  background-image: url("https://unsplash.it/1200/700?random");
   background-size: cover;
-  padding: 150px;
+  padding: 50px;
   color: white;
   text-shadow: 2px 2px 4px black;
 }
 
 #banner h1 {
   color: white;
-  font-size: 60px;
+  font-size: 25px;
 }
 #banner p {
   color: white;
   opacity: 0.8;
-  font-size: 40px;
+  font-size: 19px;
   font-weight: lighter;
 }
 
@@ -84,12 +104,38 @@ img {
 }
 
 .card p {
- 	font-size: 25px;
+ 	font-size: 13px;
   	font-weight: lighter;
 }
 
+.cardCV p {
+	text-align: left;
+	font-size: 13px;
+  	font-weight: lighter;
+}
+
+
+.cardCV h2 {
+  font-family: Helvetica;
+  color: rgba(10,10,10);
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+
+.cardCV h3 {
+  font-family: Helvetica;
+  color: rgba(10,10,10);
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.cardCV img {
+  font-size: 70px;
+}
+
 .card h2 {
- 	font-size: 30px;
+ 	font-size: 15px;
   	font-weight: bold;
   	text-align: center;
 }
@@ -98,15 +144,16 @@ img {
 #footer {
 	background: grey;
   	color: lightgrey;
-  	font-size: 50px;
+  	font-size: 25px;
+  	padding: 20px;
 }
 #footer a:hover {
   	color: white;
-   font-size: 50px;
+   font-size: 28px;
 }
 
 #footer h2 {
-  	font-size: 25px;
+  	font-size: 18px;
 }
 
 
